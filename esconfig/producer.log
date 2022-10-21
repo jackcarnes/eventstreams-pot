@@ -1,0 +1,143 @@
+[2020-05-12 00:35:04,030] INFO ProducerConfig values: 
+	acks = 0
+	batch.size = 1000
+	bootstrap.servers = [es-1-ibm-es-proxy-route-bootstrap-eventstreams.apps.demo.ibmdte.net:443]
+	buffer.memory = 10000
+	client.id = 
+	compression.type = none
+	connections.max.idle.ms = 540000
+	enable.idempotence = false
+	interceptor.classes = null
+	key.serializer = class org.apache.kafka.common.serialization.ByteArraySerializer
+	linger.ms = 0
+	max.block.ms = 60000
+	max.in.flight.requests.per.connection = 1000
+	max.request.size = 1048576
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partitioner.class = class org.apache.kafka.clients.producer.internals.DefaultPartitioner
+	receive.buffer.bytes = 32768
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retries = 0
+	retry.backoff.ms = 100
+	sasl.jaas.config = [hidden]
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.mechanism = PLAIN
+	security.protocol = SASL_SSL
+	send.buffer.bytes = 131072
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.1, TLSv1]
+	ssl.endpoint.identification.algorithm = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLSv1.2
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.location = /home/ibmuser/esconfig/es-cert.jks
+	ssl.truststore.password = [hidden]
+	ssl.truststore.type = JKS
+	transaction.timeout.ms = 60000
+	transactional.id = null
+	value.serializer = class org.apache.kafka.common.serialization.ByteArraySerializer
+ (org.apache.kafka.clients.producer.ProducerConfig)
+[2020-05-12 00:35:04,098] DEBUG Added sensor with name bufferpool-wait-time (org.apache.kafka.common.metrics.Metrics)
+[2020-05-12 00:35:04,101] DEBUG Added sensor with name buffer-exhausted-records (org.apache.kafka.common.metrics.Metrics)
+[2020-05-12 00:35:04,105] DEBUG Updated cluster metadata version 1 to Cluster(id = null, nodes = [es-1-ibm-es-proxy-route-bootstrap-eventstreams.apps.demo.ibmdte.net:443 (id: -1 rack: null)], partitions = []) (org.apache.kafka.clients.Metadata)
+[2020-05-12 00:35:04,127] INFO Successfully logged in. (org.apache.kafka.common.security.authenticator.AbstractLogin)
+[2020-05-12 00:35:04,169] DEBUG Added sensor with name produce-throttle-time (org.apache.kafka.common.metrics.Metrics)
+[2020-05-12 00:35:04,177] DEBUG Added sensor with name connections-closed: (org.apache.kafka.common.metrics.Metrics)
+[2020-05-12 00:35:04,177] DEBUG Added sensor with name connections-created: (org.apache.kafka.common.metrics.Metrics)
+[2020-05-12 00:35:04,177] DEBUG Added sensor with name successful-authentication: (org.apache.kafka.common.metrics.Metrics)
+[2020-05-12 00:35:04,178] DEBUG Added sensor with name failed-authentication: (org.apache.kafka.common.metrics.Metrics)
+[2020-05-12 00:35:04,178] DEBUG Added sensor with name bytes-sent-received: (org.apache.kafka.common.metrics.Metrics)
+[2020-05-12 00:35:04,178] DEBUG Added sensor with name bytes-sent: (org.apache.kafka.common.metrics.Metrics)
+[2020-05-12 00:35:04,179] DEBUG Added sensor with name bytes-received: (org.apache.kafka.common.metrics.Metrics)
+[2020-05-12 00:35:04,179] DEBUG Added sensor with name select-time: (org.apache.kafka.common.metrics.Metrics)
+[2020-05-12 00:35:04,180] DEBUG Added sensor with name io-time: (org.apache.kafka.common.metrics.Metrics)
+[2020-05-12 00:35:04,183] DEBUG Added sensor with name batch-size (org.apache.kafka.common.metrics.Metrics)
+[2020-05-12 00:35:04,183] DEBUG Added sensor with name compression-rate (org.apache.kafka.common.metrics.Metrics)
+[2020-05-12 00:35:04,183] DEBUG Added sensor with name queue-time (org.apache.kafka.common.metrics.Metrics)
+[2020-05-12 00:35:04,183] DEBUG Added sensor with name request-time (org.apache.kafka.common.metrics.Metrics)
+[2020-05-12 00:35:04,184] DEBUG Added sensor with name records-per-request (org.apache.kafka.common.metrics.Metrics)
+[2020-05-12 00:35:04,184] DEBUG Added sensor with name record-retries (org.apache.kafka.common.metrics.Metrics)
+[2020-05-12 00:35:04,184] DEBUG Added sensor with name errors (org.apache.kafka.common.metrics.Metrics)
+[2020-05-12 00:35:04,184] DEBUG Added sensor with name record-size (org.apache.kafka.common.metrics.Metrics)
+[2020-05-12 00:35:04,185] DEBUG Added sensor with name batch-split-rate (org.apache.kafka.common.metrics.Metrics)
+[2020-05-12 00:35:04,188] INFO Kafka version : 1.0.0 (org.apache.kafka.common.utils.AppInfoParser)
+[2020-05-12 00:35:04,188] INFO Kafka commitId : aaa7af6d4a11b29d (org.apache.kafka.common.utils.AppInfoParser)
+[2020-05-12 00:35:04,189] DEBUG [Producer clientId=producer-1] Starting Kafka producer I/O thread. (org.apache.kafka.clients.producer.internals.Sender)
+[2020-05-12 00:35:04,189] DEBUG [Producer clientId=producer-1] Kafka producer started (org.apache.kafka.clients.producer.KafkaProducer)
+[2020-05-12 00:35:04,192] DEBUG [Producer clientId=producer-1] Initialize connection to node es-1-ibm-es-proxy-route-bootstrap-eventstreams.apps.demo.ibmdte.net:443 (id: -1 rack: null) for sending metadata request (org.apache.kafka.clients.NetworkClient)
+[2020-05-12 00:35:04,192] DEBUG [Producer clientId=producer-1] Initiating connection to node es-1-ibm-es-proxy-route-bootstrap-eventstreams.apps.demo.ibmdte.net:443 (id: -1 rack: null) (org.apache.kafka.clients.NetworkClient)
+[2020-05-12 00:35:04,228] DEBUG Set SASL client state to SEND_APIVERSIONS_REQUEST (org.apache.kafka.common.security.authenticator.SaslClientAuthenticator)
+[2020-05-12 00:35:04,229] DEBUG Creating SaslClient: client=null;service=kafka;serviceHostname=es-1-ibm-es-proxy-route-bootstrap-eventstreams.apps.demo.ibmdte.net;mechs=[PLAIN] (org.apache.kafka.common.security.authenticator.SaslClientAuthenticator)
+[2020-05-12 00:35:04,232] DEBUG Added sensor with name node--1.bytes-sent (org.apache.kafka.common.metrics.Metrics)
+[2020-05-12 00:35:04,232] DEBUG Added sensor with name node--1.bytes-received (org.apache.kafka.common.metrics.Metrics)
+[2020-05-12 00:35:04,233] DEBUG Added sensor with name node--1.latency (org.apache.kafka.common.metrics.Metrics)
+[2020-05-12 00:35:04,233] DEBUG [Producer clientId=producer-1] Created socket with SO_RCVBUF = 32768, SO_SNDBUF = 131072, SO_TIMEOUT = 0 to node -1 (org.apache.kafka.common.network.Selector)
+[2020-05-12 00:35:04,296] DEBUG [Producer clientId=producer-1] Completed connection to node -1. Fetching API versions. (org.apache.kafka.clients.NetworkClient)
+[2020-05-12 00:35:04,418] DEBUG SSL handshake completed successfully with peerHost 'es-1-ibm-es-proxy-route-bootstrap-eventstreams.apps.demo.ibmdte.net' peerPort 443 peerPrincipal 'OU=IBM Event Streams, O=IBM' cipherSuite 'TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384' (org.apache.kafka.common.network.SslTransportLayer)
+[2020-05-12 00:35:04,420] DEBUG Set SASL client state to RECEIVE_APIVERSIONS_RESPONSE (org.apache.kafka.common.security.authenticator.SaslClientAuthenticator)
+[2020-05-12 00:35:04,437] DEBUG Set SASL client state to SEND_HANDSHAKE_REQUEST (org.apache.kafka.common.security.authenticator.SaslClientAuthenticator)
+[2020-05-12 00:35:04,437] DEBUG Set SASL client state to RECEIVE_HANDSHAKE_RESPONSE (org.apache.kafka.common.security.authenticator.SaslClientAuthenticator)
+[2020-05-12 00:35:04,441] DEBUG Set SASL client state to INITIAL (org.apache.kafka.common.security.authenticator.SaslClientAuthenticator)
+[2020-05-12 00:35:04,442] DEBUG Set SASL client state to INTERMEDIATE (org.apache.kafka.common.security.authenticator.SaslClientAuthenticator)
+[2020-05-12 00:35:04,461] DEBUG Set SASL client state to COMPLETE (org.apache.kafka.common.security.authenticator.SaslClientAuthenticator)
+[2020-05-12 00:35:04,461] DEBUG [Producer clientId=producer-1] Initiating API versions fetch from node -1. (org.apache.kafka.clients.NetworkClient)
+[2020-05-12 00:35:04,471] DEBUG [Producer clientId=producer-1] Recorded API versions for node -1: (Produce(0): 0 to 7 [usable: 5], Fetch(1): 0 to 11 [usable: 6], ListOffsets(2): 0 to 5 [usable: 2], Metadata(3): 0 to 8 [usable: 5], LeaderAndIsr(4): 0 to 2 [usable: 1], StopReplica(5): 0 to 1 [usable: 0], UpdateMetadata(6): 0 to 5 [usable: 4], ControlledShutdown(7): 0 to 2 [usable: 1], OffsetCommit(8): 0 to 7 [usable: 3], OffsetFetch(9): 0 to 5 [usable: 3], FindCoordinator(10): 0 to 2 [usable: 1], JoinGroup(11): 0 to 5 [usable: 2], Heartbeat(12): 0 to 3 [usable: 1], LeaveGroup(13): 0 to 2 [usable: 1], SyncGroup(14): 0 to 3 [usable: 1], DescribeGroups(15): 0 to 3 [usable: 1], ListGroups(16): 0 to 2 [usable: 1], SaslHandshake(17): 0 to 1 [usable: 1], ApiVersions(18): 0 to 2 [usable: 1], CreateTopics(19): 0 to 3 [usable: 2], DeleteTopics(20): 0 to 3 [usable: 1], DeleteRecords(21): 0 to 1 [usable: 0], InitProducerId(22): 0 to 1 [usable: 0], OffsetForLeaderEpoch(23): 0 to 3 [usable: 0], AddPartitionsToTxn(24): 0 to 1 [usable: 0], AddOffsetsToTxn(25): 0 to 1 [usable: 0], EndTxn(26): 0 to 1 [usable: 0], WriteTxnMarkers(27): 0 [usable: 0], TxnOffsetCommit(28): 0 to 2 [usable: 0], DescribeAcls(29): 0 to 1 [usable: 0], CreateAcls(30): 0 to 1 [usable: 0], DeleteAcls(31): 0 to 1 [usable: 0], DescribeConfigs(32): 0 to 2 [usable: 0], AlterConfigs(33): 0 to 1 [usable: 0], AlterReplicaLogDirs(34): 0 to 1 [usable: 0], DescribeLogDirs(35): 0 to 1 [usable: 0], SaslAuthenticate(36): 0 to 1 [usable: 0], CreatePartitions(37): 0 to 1 [usable: 0], UNKNOWN(38): 0 to 1, UNKNOWN(39): 0 to 1, UNKNOWN(40): 0 to 1, UNKNOWN(41): 0 to 1, UNKNOWN(42): 0 to 1, UNKNOWN(43): 0, UNKNOWN(44): 0) (org.apache.kafka.clients.NetworkClient)
+[2020-05-12 00:35:04,472] DEBUG [Producer clientId=producer-1] Sending metadata request (type=MetadataRequest, topics=eventtomq) to node es-1-ibm-es-proxy-route-bootstrap-eventstreams.apps.demo.ibmdte.net:443 (id: -1 rack: null) (org.apache.kafka.clients.NetworkClient)
+[2020-05-12 00:35:04,487] DEBUG Updated cluster metadata version 2 to Cluster(id = 91hFFTpbSpqLXineEJe8Lw, nodes = [es-1-ibm-es-proxy-route-broker-1-eventstreams.apps.demo.ibmdte.net:443 (id: 1 rack: default), es-1-ibm-es-proxy-route-broker-0-eventstreams.apps.demo.ibmdte.net:443 (id: 0 rack: default), es-1-ibm-es-proxy-route-broker-2-eventstreams.apps.demo.ibmdte.net:443 (id: 2 rack: default)], partitions = [Partition(topic = eventtomq, partition = 0, leader = 1, replicas = [1,0,2], isr = [1,0,2], offlineReplicas = [])]) (org.apache.kafka.clients.Metadata)
+[2020-05-12 00:35:04,499] INFO [Producer clientId=producer-1] Closing the Kafka producer with timeoutMillis = 9223372036854775807 ms. (org.apache.kafka.clients.producer.KafkaProducer)
+[2020-05-12 00:35:04,501] DEBUG [Producer clientId=producer-1] Beginning shutdown of Kafka producer I/O thread, sending remaining records. (org.apache.kafka.clients.producer.internals.Sender)
+[2020-05-12 00:35:04,502] DEBUG [Producer clientId=producer-1] Initiating connection to node es-1-ibm-es-proxy-route-broker-1-eventstreams.apps.demo.ibmdte.net:443 (id: 1 rack: default) (org.apache.kafka.clients.NetworkClient)
+[2020-05-12 00:35:04,504] DEBUG Set SASL client state to SEND_APIVERSIONS_REQUEST (org.apache.kafka.common.security.authenticator.SaslClientAuthenticator)
+[2020-05-12 00:35:04,504] DEBUG Creating SaslClient: client=null;service=kafka;serviceHostname=es-1-ibm-es-proxy-route-broker-1-eventstreams.apps.demo.ibmdte.net;mechs=[PLAIN] (org.apache.kafka.common.security.authenticator.SaslClientAuthenticator)
+[2020-05-12 00:35:04,505] DEBUG Added sensor with name node-1.bytes-sent (org.apache.kafka.common.metrics.Metrics)
+[2020-05-12 00:35:04,505] DEBUG Added sensor with name node-1.bytes-received (org.apache.kafka.common.metrics.Metrics)
+[2020-05-12 00:35:04,505] DEBUG Added sensor with name node-1.latency (org.apache.kafka.common.metrics.Metrics)
+[2020-05-12 00:35:04,506] DEBUG [Producer clientId=producer-1] Created socket with SO_RCVBUF = 32768, SO_SNDBUF = 131072, SO_TIMEOUT = 0 to node 1 (org.apache.kafka.common.network.Selector)
+[2020-05-12 00:35:04,506] DEBUG [Producer clientId=producer-1] Completed connection to node 1. Fetching API versions. (org.apache.kafka.clients.NetworkClient)
+[2020-05-12 00:35:04,524] DEBUG SSL handshake completed successfully with peerHost 'es-1-ibm-es-proxy-route-broker-1-eventstreams.apps.demo.ibmdte.net' peerPort 443 peerPrincipal 'OU=IBM Event Streams, O=IBM' cipherSuite 'TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384' (org.apache.kafka.common.network.SslTransportLayer)
+[2020-05-12 00:35:04,525] DEBUG Set SASL client state to RECEIVE_APIVERSIONS_RESPONSE (org.apache.kafka.common.security.authenticator.SaslClientAuthenticator)
+[2020-05-12 00:35:04,532] DEBUG Set SASL client state to SEND_HANDSHAKE_REQUEST (org.apache.kafka.common.security.authenticator.SaslClientAuthenticator)
+[2020-05-12 00:35:04,532] DEBUG Set SASL client state to RECEIVE_HANDSHAKE_RESPONSE (org.apache.kafka.common.security.authenticator.SaslClientAuthenticator)
+[2020-05-12 00:35:04,535] DEBUG Set SASL client state to INITIAL (org.apache.kafka.common.security.authenticator.SaslClientAuthenticator)
+[2020-05-12 00:35:04,535] DEBUG Set SASL client state to INTERMEDIATE (org.apache.kafka.common.security.authenticator.SaslClientAuthenticator)
+[2020-05-12 00:35:04,562] DEBUG Set SASL client state to COMPLETE (org.apache.kafka.common.security.authenticator.SaslClientAuthenticator)
+[2020-05-12 00:35:04,562] DEBUG [Producer clientId=producer-1] Initiating API versions fetch from node 1. (org.apache.kafka.clients.NetworkClient)
+[2020-05-12 00:35:04,565] DEBUG [Producer clientId=producer-1] Recorded API versions for node 1: (Produce(0): 0 to 7 [usable: 5], Fetch(1): 0 to 11 [usable: 6], ListOffsets(2): 0 to 5 [usable: 2], Metadata(3): 0 to 8 [usable: 5], LeaderAndIsr(4): 0 to 2 [usable: 1], StopReplica(5): 0 to 1 [usable: 0], UpdateMetadata(6): 0 to 5 [usable: 4], ControlledShutdown(7): 0 to 2 [usable: 1], OffsetCommit(8): 0 to 7 [usable: 3], OffsetFetch(9): 0 to 5 [usable: 3], FindCoordinator(10): 0 to 2 [usable: 1], JoinGroup(11): 0 to 5 [usable: 2], Heartbeat(12): 0 to 3 [usable: 1], LeaveGroup(13): 0 to 2 [usable: 1], SyncGroup(14): 0 to 3 [usable: 1], DescribeGroups(15): 0 to 3 [usable: 1], ListGroups(16): 0 to 2 [usable: 1], SaslHandshake(17): 0 to 1 [usable: 1], ApiVersions(18): 0 to 2 [usable: 1], CreateTopics(19): 0 to 3 [usable: 2], DeleteTopics(20): 0 to 3 [usable: 1], DeleteRecords(21): 0 to 1 [usable: 0], InitProducerId(22): 0 to 1 [usable: 0], OffsetForLeaderEpoch(23): 0 to 3 [usable: 0], AddPartitionsToTxn(24): 0 to 1 [usable: 0], AddOffsetsToTxn(25): 0 to 1 [usable: 0], EndTxn(26): 0 to 1 [usable: 0], WriteTxnMarkers(27): 0 [usable: 0], TxnOffsetCommit(28): 0 to 2 [usable: 0], DescribeAcls(29): 0 to 1 [usable: 0], CreateAcls(30): 0 to 1 [usable: 0], DeleteAcls(31): 0 to 1 [usable: 0], DescribeConfigs(32): 0 to 2 [usable: 0], AlterConfigs(33): 0 to 1 [usable: 0], AlterReplicaLogDirs(34): 0 to 1 [usable: 0], DescribeLogDirs(35): 0 to 1 [usable: 0], SaslAuthenticate(36): 0 to 1 [usable: 0], CreatePartitions(37): 0 to 1 [usable: 0], UNKNOWN(38): 0 to 1, UNKNOWN(39): 0 to 1, UNKNOWN(40): 0 to 1, UNKNOWN(41): 0 to 1, UNKNOWN(42): 0 to 1, UNKNOWN(43): 0, UNKNOWN(44): 0) (org.apache.kafka.clients.NetworkClient)
+[2020-05-12 00:35:04,568] DEBUG Added sensor with name topic.eventtomq.records-per-batch (org.apache.kafka.common.metrics.Metrics)
+[2020-05-12 00:35:04,568] DEBUG Added sensor with name topic.eventtomq.bytes (org.apache.kafka.common.metrics.Metrics)
+[2020-05-12 00:35:04,568] DEBUG Added sensor with name topic.eventtomq.compression-rate (org.apache.kafka.common.metrics.Metrics)
+[2020-05-12 00:35:04,568] DEBUG Added sensor with name topic.eventtomq.record-retries (org.apache.kafka.common.metrics.Metrics)
+[2020-05-12 00:35:04,569] DEBUG Added sensor with name topic.eventtomq.record-errors (org.apache.kafka.common.metrics.Metrics)
+[2020-05-12 00:35:04,577] DEBUG Removed sensor with name connections-closed: (org.apache.kafka.common.metrics.Metrics)
+[2020-05-12 00:35:04,578] DEBUG Removed sensor with name connections-created: (org.apache.kafka.common.metrics.Metrics)
+[2020-05-12 00:35:04,578] DEBUG Removed sensor with name successful-authentication: (org.apache.kafka.common.metrics.Metrics)
+[2020-05-12 00:35:04,579] DEBUG Removed sensor with name failed-authentication: (org.apache.kafka.common.metrics.Metrics)
+[2020-05-12 00:35:04,579] DEBUG Removed sensor with name bytes-sent-received: (org.apache.kafka.common.metrics.Metrics)
+[2020-05-12 00:35:04,579] DEBUG Removed sensor with name bytes-sent: (org.apache.kafka.common.metrics.Metrics)
+[2020-05-12 00:35:04,579] DEBUG Removed sensor with name bytes-received: (org.apache.kafka.common.metrics.Metrics)
+[2020-05-12 00:35:04,580] DEBUG Removed sensor with name select-time: (org.apache.kafka.common.metrics.Metrics)
+[2020-05-12 00:35:04,580] DEBUG Removed sensor with name io-time: (org.apache.kafka.common.metrics.Metrics)
+[2020-05-12 00:35:04,580] DEBUG Removed sensor with name node--1.bytes-sent (org.apache.kafka.common.metrics.Metrics)
+[2020-05-12 00:35:04,580] DEBUG Removed sensor with name node--1.bytes-received (org.apache.kafka.common.metrics.Metrics)
+[2020-05-12 00:35:04,580] DEBUG Removed sensor with name node--1.latency (org.apache.kafka.common.metrics.Metrics)
+[2020-05-12 00:35:04,581] DEBUG Removed sensor with name node-1.bytes-sent (org.apache.kafka.common.metrics.Metrics)
+[2020-05-12 00:35:04,581] DEBUG Removed sensor with name node-1.bytes-received (org.apache.kafka.common.metrics.Metrics)
+[2020-05-12 00:35:04,581] DEBUG Removed sensor with name node-1.latency (org.apache.kafka.common.metrics.Metrics)
+[2020-05-12 00:35:04,581] DEBUG [Producer clientId=producer-1] Shutdown of Kafka producer I/O thread has completed. (org.apache.kafka.clients.producer.internals.Sender)
+[2020-05-12 00:35:04,581] DEBUG [Producer clientId=producer-1] Kafka producer has been closed (org.apache.kafka.clients.producer.KafkaProducer)
